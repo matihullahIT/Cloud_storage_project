@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cloud Storage Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="dashboard">
+
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+
+        <h2>
+            ☁ CloudDrive
+        </h2>
+
+        <ul>
+
+            <li class="active">
+                Dashboard
+            </li>
+
+            <li>
+                My Files
+            </li>
+
+            <li>
+                Shared Files
+            </li>
+
+            <li>
+                Settings
+            </li>
+
+        </ul>
+
+
+
+        <button class="logout">
+            Logout
+        </button>
+
+
+    </aside>
+
+
+
+
+    <!-- Main Content -->
+
+    <main class="content">
+
+
+        <div class="topbar">
+
+
+            <div>
+
+                <h1>
+                    Welcome Back, <script>document.write(DummyData());</script>
+                </h1>
+
+                <p>
+                    Manage your files and storage
+                </p>
+
+            </div>
+
+
+
+            <button class="upload">
+
+                + Upload File
+
+            </button>
+
+
+        </div>
+
+
+
+
+
+        <!-- Storage Card -->
+
+
+        <div class="storage-card">
+
+
+            <h3>
+                Storage Usage
+            </h3>
+
+
+            <div class="progress">
+
+                <div class="progress-bar">
+
+                </div>
+
+            </div>
+
+
+            <p>
+                6GB used of 20GB
+            </p>
+
+
+        </div>
+
+
+
+
+
+
+        <!-- Folder Section -->
+
+
+        <section>
+
+
+            <h2>
+                Folders
+            </h2>
+
+
+            <div class="cards">
+
+
+                <div class="card">
+
+                    📁 Projects
+
+                </div>
+
+
+                <div class="card">
+
+                    📁 Documents
+
+                </div>
+
+
+                <div class="card">
+
+                    📁 Images
+
+                </div>
+
+
+                <div class="card">
+
+                    📁 Videos
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+        <!-- Files Section -->
+
+
+        <section>
+
+
+            <h2>
+                Recent Files
+            </h2>
+
+
+
+            <table>
+
+
+                <tr>
+
+                    <th>
+                        File Name
+                    </th>
+
+
+                    <th>
+                        Size
+                    </th>
+
+
+                    <th>
+                        Type
+                    </th>
+
+
+                    <th>
+                        Action
+                    </th>
+
+                </tr>
+
+
+
+
+                <tr>
+
+
+                    <td>
+                        project.zip
+                    </td>
+
+
+                    <td>
+                        250 MB
+                    </td>
+
+
+                    <td>
+                        ZIP
+                    </td>
+
+
+                    <td>
+
+                        <button>
+                            Download
+                        </button>
+
+
+                        <button class="delete">
+                            Delete
+                        </button>
+
+                    </td>
+
+
+                </tr>
+
+
+
+
+
+                <tr>
+
+
+                    <td>
+                        profile.png
+                    </td>
+
+
+                    <td>
+                        2 MB
+                    </td>
+
+
+                    <td>
+                        Image
+                    </td>
+
+
+                    <td>
+
+                        <button>
+                            Download
+                        </button>
+
+
+                        <button class="delete">
+                            Delete
+                        </button>
+
+                    </td>
+
+
+                </tr>
+
+
+            </table>
+
+
+
+        </section>
+
+
+
+    </main>
+
+
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
